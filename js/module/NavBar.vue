@@ -16,6 +16,7 @@
         <div class="navbar-end">
           <a href="/" class="navbar-item" :class="isActivePage('home')">Home</a>
           <a href="/blog/" class="navbar-item" :class="isActivePage('blog')">Blog</a>
+          <a href="https://steemit.com/@lnakuma" class="navbar-item" target="_blank">Steemit</a>
         </div>
       </div>
     </div>

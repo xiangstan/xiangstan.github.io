@@ -17,6 +17,7 @@
 <body>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" rel="stylesheet" />
+  <link href="/style/index.css" rel="stylesheet" />
 
   <div id="app"></div>
 
@@ -33,6 +34,28 @@
 <script id="temp-app" type="text/x-template">
   <div>
     <nav-bar :page="curPage"></nav-bar>
+    <div class="page-container">
+      <div class="index-greeting container">
+        <div>
+          <h1 class="is-size-2">xiangstan.github.io</h1>
+          <h4 class="is-size-6 is-italic">Xiang Shan Tan</h4>
+          <div class="index-contact">
+            <a class="index-icon icon-github" href="https://github.com/xiangstan/" target="_blank">
+              <i aira-hidden="true" class="fab fa-github fa-fw"></i>
+            </a>
+            <a class="index-icon icon-gitlab" href="https://gitlab.com/lnakuma" target="_blank">
+              <i aira-hidden="true" class="fab fa-gitlab fa-fw"></i>
+            </a>
+            <a class="index-icon icon-twitter" href="https://twitter.com/Xiang_sTan" target="_blank">
+              <i aira-hidden="true" class="fab fa-twitter fa-fw"></i>
+            </a>
+            <a class="index-icon icon-msft" href="mailto:xtan@uccs.edu">
+              <i aira-hidden="true" class="far fa-envelope fa-fw"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </script>
 

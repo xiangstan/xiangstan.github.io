@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: xiangstan.github.io
+Token: 9a1702cb512c45166d9067c6d967961cfdc1f2d0ef11acab015371256d33d08f
